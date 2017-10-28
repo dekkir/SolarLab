@@ -1,3 +1,4 @@
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -25,6 +26,11 @@ public class Driver {
         } catch (InterruptedException ie){
             System.out.println(ie);
         }
+    }
+
+    public static void scroll(){
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("scroll(0, 250)");
     }
 
 }
