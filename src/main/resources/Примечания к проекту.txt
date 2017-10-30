@@ -8,7 +8,7 @@
     FireFox 47.0.1
     Selenium 2.53.1
     TestNG 6.9.10
-    PageObject, в Java реализован с помощью PageFactory (класс Driver)
+    PageObject, в Java реализован с помощью PageFactory (класс PurchaseSearchForm)
 
 В данном проекте не производится работа со следующими полями:
     1) ОКПД2

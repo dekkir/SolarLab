@@ -281,7 +281,7 @@ class PurchaseSearchForm {
                             "li.ui-jqtreeview-item:nth-last-of-type(" +
                                     aNumber +
                                     ") input.ui-jqtreeview-item-checkbox")).click();
-        //плохой селектор
+        //не нашла красивой альтернативы
         driver.findElement(By.xpath("html/body/div[5]/div[3]/div/button[1]")).click();
     }
 
